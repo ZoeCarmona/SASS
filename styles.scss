@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+//Variables
+$color-head: #86B6F6;
+$color-main: #EEF5FF;
+$color-foot: #176B87;
+
+header{
+    background-color: $color-head;
+    padding: 2%;
+    text-align: center;
+}
+
+main{
+    background-color: $color-main;
+    padding: 1%;
+    text-align: center;
+}
+
+.im-w{
+    padding: 10px;
+    width: 600px;
+    height: auto;
+    border-radius: 10%;
+}
+
+p{
+    padding: 10px + 5px;
+}
+
+.w-i{
+    padding: 2%;
+}
+
+img{
+    width: 500px - 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+footer{
+    background-color: $color-foot;
+    padding: 1%;
+    text-align: center;
+}
